@@ -1,5 +1,8 @@
 function compareArrays(arr1, arr2) {
   let result = false;
+  if(arr1.length != arr2.length){
+    return(result)
+  }
   arr1 = arr1.join('')
   arr2 = arr2.join('')
   if(arr1 == arr2){
